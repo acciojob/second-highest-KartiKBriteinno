@@ -1,6 +1,5 @@
-//your JS code here. If required.
 function secondHighest(arr) {
-    if (arr.length < 2 || new Set(arr).size === 1) {
+    if (arr.length <= 1 || new Set(arr).size === 1) {
         return -Infinity;
     }
     
